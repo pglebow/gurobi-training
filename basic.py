@@ -2,7 +2,7 @@ from gurobipy import *
 
 m = Model('basic')
 
-modelFileName='basic.lp'
+modelFileName='basic.mps'
 solFileName='basic.sol'
 
 x = m.addVar(name='x')
